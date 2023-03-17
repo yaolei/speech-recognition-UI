@@ -1,0 +1,40 @@
+input[type=text]:focus {
+    border: 3px solid #c33333;
+  }
+  
+.chat_textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    color: black;
+}
+.chat-history {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #918d8d;
+    resize: none;
+    color: black;
+}
+.chat-btn {
+  width: 200px;
+  height: 100px;
+}
+.chat-btn:hover {
+  cursor:pointer;
+  background-color: aqua;
+}
+.chat-date-1 {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
